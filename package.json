@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bittorrent-dht": "^8.0.1",
+    "ed25519-supercop": "^1.0.2"
+  }
+}
