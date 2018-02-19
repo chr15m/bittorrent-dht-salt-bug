@@ -6,8 +6,10 @@ Steps to replicate the bug:
  * Run `put.js` to put a known value into the DHT for testing against.
  * Edit `node_modules/bittorrent-dht/client.js` add a `console.log("reply", r);` on line 391:
 
-    if (isMutable) {
-      console.log("reply", r);
+```javascript
+	if (isMutable) {
+	  console.log("reply", r);
+```
 
 This is so we can see the raw replies that live DHT nodes are sending back in response.
 
